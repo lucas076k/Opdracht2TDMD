@@ -5,7 +5,9 @@ VisualStudioVersion = 17.8.34302.71
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HueApp", "HueApp\HueApp.csproj", "{6F778F0C-8890-41AA-B4BD-D915B87E42B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{A1650220-8E15-4CD7-813F-247AFF6FB6FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{A1650220-8E15-4CD7-813F-247AFF6FB6FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{35B2BDA0-FA6F-4C0A-8DB8-F545CC17B646}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{A1650220-8E15-4CD7-813F-247AFF6FB6FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1650220-8E15-4CD7-813F-247AFF6FB6FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1650220-8E15-4CD7-813F-247AFF6FB6FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35B2BDA0-FA6F-4C0A-8DB8-F545CC17B646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35B2BDA0-FA6F-4C0A-8DB8-F545CC17B646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35B2BDA0-FA6F-4C0A-8DB8-F545CC17B646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35B2BDA0-FA6F-4C0A-8DB8-F545CC17B646}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,8 +1,13 @@
-﻿namespace HueApp
+﻿using System;
+using System.Threading.Tasks;
+using Domain;
+
+
+namespace HueApp
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
+       
 
         public MainPage()
         {

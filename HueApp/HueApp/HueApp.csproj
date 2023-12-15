@@ -62,4 +62,18 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0-rc.2.23479.6" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Compile Update="CollectionViewDemo.xaml.cs">
+	    <DependentUpon>CollectionViewDemo.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="CollectionViewDemo.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
+	<ProjectExtensions><VisualStudio><UserProperties XamarinHotReloadDebuggerTimeoutExceptionHueAppHideInfoBar="True" /></VisualStudio></ProjectExtensions>
+
 </Project>

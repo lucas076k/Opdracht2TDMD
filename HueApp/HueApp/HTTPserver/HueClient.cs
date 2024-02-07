@@ -7,7 +7,7 @@ using Domain.Data;
 using static System.Net.WebRequestMethods;
 using System.Net.Http.Headers;
 
-namespace HueApp.Model;
+namespace HueApp.HTTPserver;
 
 public class HueClient
 {

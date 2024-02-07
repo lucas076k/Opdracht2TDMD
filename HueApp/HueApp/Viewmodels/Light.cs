@@ -8,7 +8,7 @@ using static System.Formats.Asn1.AsnWriter;
 using System.Text.RegularExpressions;
 using Newtonsoft.Json;
 
-namespace Domain.Data
+namespace HueApp.Viewmodels
 {
     public class Light
     {
